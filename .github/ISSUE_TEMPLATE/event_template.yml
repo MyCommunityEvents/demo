@@ -24,7 +24,6 @@ body:
       label: Description
       description:
       placeholder: Event description 
-      value: ""
     validations:
       required: true
   - type: dropdown

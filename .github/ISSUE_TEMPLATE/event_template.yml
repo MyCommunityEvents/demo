@@ -42,7 +42,7 @@ body:
   - type: input
     id: eventimage
     attributes:
-      label: Image event url:
+      label: Image event url
       description: 
       placeholder: https://
     validations:
@@ -50,7 +50,7 @@ body:
   - type: input
     id: website
     attributes:
-      label: Website url:
+      label: Website url
       description: 
       placeholder: https://
     validations:
@@ -58,7 +58,7 @@ body:
   - type: input
     id: registration
     attributes:
-      label: Registration url:
+      label: Registration url
       description: 
       placeholder: https://
     validations:
@@ -66,7 +66,7 @@ body:
   - type: input
     id: call for paper
     attributes:
-      label: Call for paper url:
+      label: Call for paper url
       description: 
       placeholder: https://
     validations:

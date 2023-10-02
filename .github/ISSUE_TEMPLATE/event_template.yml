@@ -64,7 +64,7 @@ body:
     validations:
       required: false
   - type: input
-    id: call for paper
+    id: call-for-paper
     attributes:
       label: Call for paper url
       description: 

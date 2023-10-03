@@ -28,13 +28,17 @@ jobs:
           echo Add other actions to build ${{ github.event.issue.title }},
           echo test, and deploy your project ${{ github.event.issue.contact }}.
 
-      - name: Create JSON file
-        run: echo '{"key": "value"}' > mydata.json
+      - name: Create JSON File
+        run: |
+          echo '{
+            "name": "John Doe",
+            "email": "john.doe@example.com"
+          }' > example.json
 
       - name: Commit JSON file
         run: |
           git config user.name "GitHub Action"
           git config user.email "action@github.com"
-          git add mydata.json
+          git add example.json
           git commit -m "Add JSON file"
           git push

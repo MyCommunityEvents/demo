@@ -1,6 +1,6 @@
 name: Event Template
 description: Event form template 
-title: "Event: ${{ id }}"
+title: "[Event]: "
 labels: ["event", "new"]
 projects: ["Events"]
 assignees:
@@ -16,15 +16,6 @@ body:
       label: "Event Name"
       #description: How can we get in touch with you if we need more info?
       placeholder: insert event title/name
-    validations:
-      required: false
-  - type: input
-    id: contact
-    attributes:
-      label: "Contact Details"
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. username
-      value: '${{ username }}'
     validations:
       required: false
   - type: textarea
